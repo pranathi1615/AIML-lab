@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOTVIFnnyXVF94SDmuEXNIK",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/pranathi1615/AIML-lab/blob/main/neuron%20network\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "inputs=[1,2,3]\n",
+        "weights=[0.1,0.3,0.5]\n",
+        "bias=2\n",
+        "output=inputs[0]*weights[0]+inputs[1]*weights[1]+inputs[2]*weights[2]+bias\n",
+        "print(output)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VqDjCbYArrS5",
+        "outputId": "81aa95fd-8fab-43a9-ecac-53cdb0400bb8"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "4.2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "h_Z75WTmrkhA"
+      },
+      "outputs": [],
+      "source": []
+    }
+  ]
+}
